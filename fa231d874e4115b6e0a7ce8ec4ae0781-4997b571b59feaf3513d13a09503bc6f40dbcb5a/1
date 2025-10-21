@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kshatri Beauty Studio — Салон красоты в Москве</title>
+    <meta name="description" content="Профессиональный салон красоты Kshatri. Маникюр, педикюр, наращивание ресниц. Запись онлайн.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#home" class="logo">KSHATRI</a>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Главная</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#gallery" class="nav-link">Работы</a></li>
+                    <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+                <a href="#booking" class="btn-primary btn-nav">Записаться</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Красота</span>
+                    <span class="title-line">в каждой</span>
+                    <span class="title-line">детали</span>
+                </h1>
+                <p class="hero-subtitle">Профессиональный уход и безупречный сервис в центре Москвы</p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn-primary btn-large">Онлайн-запись</a>
+                    <a href="#services" class="btn-secondary btn-large">Наши услуги</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Листайте вниз</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- О студии -->
+    <section class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">О студии Kshatri</h2>
+                    <p class="about-description">
+                        Мы создали пространство, где профессионализм встречается с комфортом. 
+                        Наша команда мастеров с многолетним опытом использует только премиальные 
+                        материалы и современные техники.
+                    </p>
+                    <p class="about-description">
+                        Каждый визит к нам — это не просто процедура, а момент заботы о себе 
+                        в атмосфере уюта и внимания к деталям.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-number">5+</div>
+                            <div class="feature-text">лет опыта</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-number">2000+</div>
+                            <div class="feature-text">довольных клиентов</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-number">100%</div>
+                            <div class="feature-text">качество</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800" alt="Интерьер салона">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги и цены -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши услуги</h2>
+                <p class="section-subtitle">Полный спектр beauty-процедур для вашей красоты</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Маникюр -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Маникюр</h3>
+                    <ul class="service-list">
+                        <li>
+                            <span class="service-name">Классический маникюр</span>
+                            <span class="service-price">1 500 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Аппаратный маникюр</span>
+                            <span class="service-price">1 800 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Покрытие гель-лак</span>
+                            <span class="service-price">2 200 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Маникюр + покрытие</span>
+                            <span class="service-price">3 500 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Дизайн ногтей (1 ноготь)</span>
+                            <span class="service-price">от 100 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Укрепление ногтей</span>
+                            <span class="service-price">500 ₽</span>
+                        </li>
+                    </ul>
+                    <a href="#booking" class="btn-outline">Записаться</a>
+                </div>
+
+                <!-- Педикюр -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Педикюр</h3>
+                    <ul class="service-list">
+                        <li>
+                            <span class="service-name">Классический педикюр</span>
+                            <span class="service-price">2 000 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Аппаратный педикюр</span>
+                            <span class="service-price">2 500 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Покрытие гель-лак</span>
+                            <span class="service-price">2 000 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Педикюр + покрытие</span>
+                            <span class="service-price">4 000 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">SPA-педикюр</span>
+                            <span class="service-price">3 500 ₽</span>
+                        </li>
+                    </ul>
+                    <a href="#booking" class="btn-outline">Записаться</a>
+                </div>
+
+                <!-- Ресницы -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Ресницы и брови</h3>
+                    <ul class="service-list">
+                        <li>
+                            <span class="service-name">Наращивание ресниц классика</span>
+                            <span class="service-price">2 500 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Наращивание 2D-3D</span>
+                            <span class="service-price">3 000 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Объем 4D-5D</span>
+                            <span class="service-price">3 500 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Коррекция ресниц</span>
+                            <span class="service-price">2 000 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Ламинирование ресниц</span>
+                            <span class="service-price">2 800 ₽</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Оформление бровей</span>
+                            <span class="service-price">1 200 ₽</span>
+                        </li>
+                    </ul>
+                    <a href="#booking" class="btn-outline">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея работ -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши работы</h2>
+                <p class="section-subtitle">Портфолио наших мастеров</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600" alt="Маникюр 1">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Нюдовый маникюр</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=600" alt="Маникюр 2">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Французский маникюр</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=600" alt="Ресницы">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Наращивание ресниц</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=600" alt="Маникюр 3">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Дизайн с блестками</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1599948128020-9a44a0b8a8a5?w=600" alt="Педикюр">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Педикюр</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600" alt="Маникюр 4">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Яркий дизайн</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Отзывы клиентов</h2>
+                <p class="section-subtitle">Что говорят о нас</p>
+            </div>
+
+            <div class="reviews-slider">
+                <div class="reviews-container" id="reviewsContainer">
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">
+                            "Прекрасный салон! Мастера настоящие профессионалы. Делала наращивание ресниц - результат превзошел все ожидания. Очень уютная атмосфера и приятные цены."
+                        </p>
+                        <div class="review-author">
+                            <div class="author-avatar">А</div>
+                            <div class="author-info">
+                                <div class="author-name">Анна Петрова</div>
+                                <div class="author-date">2 недели назад</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">
+                            "Хожу сюда уже больше года. Маникюр держится отлично, мастера внимательные и аккуратные. Всегда чисто, стерильно. Рекомендую!"
+                        </p>
+                        <div class="review-author">
+                            <div class="author-avatar">М</div>
+                            <div class="author-info">
+                                <div class="author-name">Мария Иванова</div>
+                                <div class="author-date">1 месяц назад</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">
+                            "Отличное место! Записалась на педикюр и маникюр - все сделали быстро и качественно. Мастер посоветовала хороший дизайн. Обязательно вернусь!"
+                        </p>
+                        <div class="review-author">
+                            <div class="author-avatar">Е</div>
+                            <div class="author-info">
+                                <div class="author-name">Екатерина Смирнова</div>
+                                <div class="author-date">3 недели назад</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-btn" id="prevBtn">←</button>
+                    <button class="slider-btn" id="nextBtn">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Онлайн-запись -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking-content">
+                <div class="booking-info">
+                    <h2 class="section-title">Онлайн-запись</h2>
+                    <p class="booking-description">
+                        Запишитесь на процедуру прямо сейчас. Мы свяжемся с вами для подтверждения времени.
+                    </p>
+                    <div class="booking-benefits">
+                        <div class="benefit-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Удобное время</span>
+                        </div>
+                        <div class="benefit-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Опытные мастера</span>
+                        </div>
+                        <div class="benefit-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Премиум материалы</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-input" placeholder="Телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-input" required>
+                            <option value="">Выберите услугу</option>
+                            <option value="manicure">Маникюр</option>
+                            <option value="pedicure">Педикюр</option>
+                            <option value="lashes">Ресницы</option>
+                            <option value="brows">Брови</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="time" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input" placeholder="Комментарий (необязательно)" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-large btn-full">Отправить заявку</button>
+                    <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts-grid">
+                <div class="contacts-info">
+                    <h2 class="section-title">Контакты</h2>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <div class="contact-label">Адрес</div>
+                                <div class="contact-value">Москва, ул. Примерная, д. 1</div>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <div class="contact-label">Телефон</div>
+                                <div class="contact-value">+7 (999) 123-45-67</div>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <div class="contact-label">Режим работы</div>
+                                <div class="contact-value">Ежедневно с 10:00 до 21:00</div>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <div class="contact-label">Email</div>
+                                <div class="contact-value">info@kshatri.ru</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+                                <circle cx="17.5" cy="6.5" r="1.5" fill="#1a1a1a"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Telegram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.6087064818477!2d37.61766831592448!3d55.75582998055641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a50b315e573%3A0xa886bf5a3d9b2e68!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1234567890123!5m2!1sru!2sru" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">KSHATRI</div>
+                <div class="footer-text">
+                    <p>&copy; 2024 Kshatri Beauty Studio. Все права защищены.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Кнопка "Наверх" -->
+    <button class="scroll-top" id="scrollTop">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
